@@ -2,7 +2,7 @@ package naXa777;
 
 public class Palindrome {
     public static boolean isPalindrome(String word) {
-        final String lcaseWord = word.toLowerCase();
+                final String lcaseWord = word.toLowerCase();
         final int l = word.length();
         for (int i = 0; i < l; ++i)
             if (lcaseWord.charAt(i) != lcaseWord.charAt(l-i-1))
